@@ -1,48 +1,12 @@
-# MERN Stack CRUD Application
+# React + Vite
 
-This is a simple **CRUD (Create, Read, Update, Delete)** application built using the **MERN stack (MongoDB, Express.js, React.js, Node.js)**. It allows users to add, view, update, and delete user information like Name, Email, and Age.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 📸 Screenshots
+Currently, two official plugins are available:
 
-<img src="screenshots/home.png" alt="Home Page" width="600"/>
-<img src="screenshots/add-user.png" alt="Add User Page" width="600"/>
-<img src="screenshots/edit-user.png" alt="Edit User Page" width="600"/>
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🔧 Tech Stack Used
+## Expanding the ESLint configuration
 
-- **Frontend:** React.js, Axios, Bootstrap
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB with Mongoose ODM
-- **Others:** dotenv, cors
-
----
-
-## ✨ Features
-
-- Add new users
-- View a list of users
-- Edit existing user details
-- Delete users
-- Responsive UI
-- REST API integration
-
----
-## 📁 Project Structure
-/client
-  ├── public/
-  ├── src/
-  ├── index.html
-  ├── vite.config.js
-
-/server
-  ├── models/
-      └── users.js
-  ├── index.js
-
----
-
-**📬 Contact**
-Vaibhav Bari
-📧 **Email:** bariv219@gmail.com
-
-🔗 **LinkedIn:** https://www.linkedin.com/in/vaibhavbari
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
