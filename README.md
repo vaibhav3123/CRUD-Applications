@@ -1,42 +1,49 @@
-📋 **MERN Stack CRUD Application (User Management)**
-A simple MERN Stack CRUD app that allows users to manage a list with fields like Name, Email, and Age. Users can Create, Read, Update, and Delete entries easily through a responsive UI.
+# MERN Stack CRUD Application
+
+This is a simple **CRUD (Create, Read, Update, Delete)** application built using the **MERN stack (MongoDB, Express.js, React.js, Node.js)**. It allows users to add, view, update, and delete user information like Name, Email, and Age.
+
+## 📸 Screenshots
+
+<img src="screenshots/home.png" alt="Home Page" width="600"/>
+<img src="screenshots/add-user.png" alt="Add User Page" width="600"/>
+<img src="screenshots/edit-user.png" alt="Edit User Page" width="600"/>
 
 ---
-**🧾 Description**
-This project is built to demonstrate basic CRUD functionality using the MERN Stack (MongoDB, Express.js, React.js, and Node.js). It features a form to add users with fields for name, email, and age, along with a user list that includes Edit and Delete actions.
+
+## 🔧 Tech Stack Used
+
+- **Frontend:** React.js, Axios, Bootstrap
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB with Mongoose ODM
+- **Others:** dotenv, cors
 
 ---
-🚀 Features
-➕ Add User: Name, Email, Age
-📄 View User List
-🛠️ Edit User Information
-❌ Delete User from List
-✅ Form validation and alerts
-🔗 API calls with Axios
+
+## ✨ Features
+
+- Add new users
+- View a list of users
+- Edit existing user details
+- Delete users
+- Responsive UI
+- REST API integration
 
 ---
-**🛠️ Tech Stack**
-Frontend
-React.js
-Axios
-CSS / Bootstrap
+## 📁 Project Structure
+/client
+  ├── public/
+  ├── src/
+  ├── index.html
+  ├── vite.config.js
 
-**Backend**
-Node.js
-Express.js
-MongoDB (via Mongoose)
-dotenv
-cors
-
----
-**🖼️ UI Overview**
-Each user is displayed in a table/list with:
-Name	Email	Age	Actions
-vaibz	vaibz@example.com	21	✏️ Edit / 🗑️ Delete
+/server
+  ├── models/
+      └── users.js
+  ├── index.js
 
 ---
-## 📷 Screenshot
 
-
-
-
+**📬 Contact**
+Vaibhav Bari
+📧 **Email:** bariv219@gmail.com
+🔗 **LinkedIn:** https://www.linkedin.com/in/vaibhavbari
