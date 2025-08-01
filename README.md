@@ -8,8 +8,6 @@ This is a simple **CRUD (Create, Read, Update, Delete)** application built using
 <img src="screenshots/add-user.png" alt="Add User Page" width="600"/>
 <img src="screenshots/edit-user.png" alt="Edit User Page" width="600"/>
 
----
-
 ## 🔧 Tech Stack Used
 
 - **Frontend:** React.js, Axios, Bootstrap
@@ -46,4 +44,5 @@ This is a simple **CRUD (Create, Read, Update, Delete)** application built using
 **📬 Contact**
 Vaibhav Bari
 📧 **Email:** bariv219@gmail.com
+
 🔗 **LinkedIn:** https://www.linkedin.com/in/vaibhavbari
